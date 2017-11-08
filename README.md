@@ -1,7 +1,9 @@
-### Ember JS for Learning
+## Ember JS for Learning
 
 - Ember needs ember dependencies (addons)
 - Ember data it's an ember dependecy
+
+#### Chapter 1
 
 Development Flow:
 
@@ -28,3 +30,6 @@ What we have?
   - A model
   - A serializer
   - An adapter
+
+#### Chapter 2
+
