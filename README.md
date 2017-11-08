@@ -19,8 +19,7 @@ Development Flow:
   > ember install ember-cli-mirage
 
   - Adding mirage-model user
-
-
+  - In mirage/config.js add post request for /users.
 
 What we have?
 
