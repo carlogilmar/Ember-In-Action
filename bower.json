@@ -1,5 +1,6 @@
 {
   "name": "ember-notes",
   "dependencies": {
+    "bootstrap": "^3.3.7"
   }
 }
