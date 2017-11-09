@@ -14,6 +14,7 @@ export default Ember.Route.extend({
 			notebook.save().then(() => {
 				this.controller.set('title',null);
 				this.refresh();
+        alert("Notebook ok");
 			},
 				function(){
 					alert('Save failed!!');
