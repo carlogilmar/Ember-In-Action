@@ -8,7 +8,7 @@ export default Ember.Route.extend({
 			})
 			.then((user) => {
 				this.controllerFor('application').set('user',user);
-				this.transitionTo('notebooks');
+				this.transitionTo('notebooks', user.get('id'));
 			});
 		}
 	}
