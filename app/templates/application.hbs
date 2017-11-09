@@ -1,7 +1,12 @@
 <div class="container">
-		<a href='#' class="pull-right">Logout</a>
 	<div class="row">
 		<h1 class="pull-left">EBC Rutas docentes</h1>
+		{{#if user}}
+			<h4 class="pull-right">Hello {{user.name}}</h4>
+		{{/if}}
+		{{#unless user}}
+			<h4 class="pull-right">No user!</h4>
+		{{/unless}}
 	</div>
 </div>
 <nav class="navbar navbar-inversei navbar-light" style="background-color: #0080FF;">
