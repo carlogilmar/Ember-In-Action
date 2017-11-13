@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('student');
   this.route('register');
   this.route('login');
   this.route('notebooks', {path:'notebooks/:user_id'}, function(){
